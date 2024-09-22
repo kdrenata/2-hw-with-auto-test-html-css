@@ -13,7 +13,7 @@ body {
 
 header {
     /* Стили для хедера */
-    background-color: #0a61f7;
+    background-color: rgb(41,101,241);
     padding: 14px 0;
 }
 
@@ -29,7 +29,6 @@ header span {
     background-color: #fafaff;
     padding: 60px 0;
     height: 100vh;
-
 }
 
 .main-title {
@@ -37,6 +36,7 @@ header span {
     font-weight: 700;
     font-size: 48px;
     color: #303030;
+    margin-bottom: 20px;
 }
 
 .main-text {
@@ -77,19 +77,19 @@ select {
     font-weight: 700;
     font-size: 24px;
     color: #303030;
-    padding-bottom: 25px;
+    margin-bottom: 25px;
 }
 
 .frameworks-list {
     /* Стили для маркированного списка во второй секции */
     list-style-image: url("./assets/images/Vector-1.svg");
-    padding-left: 20px;
+    padding: 0 20px;
 }
 
 .books-list {
     /* Стили для нумерованного списка во второй секции */
     list-style-type: decimal;
-    padding-left: 20px;
+    padding: 0 20px;
 }
 
 .label {
@@ -120,7 +120,6 @@ select {
     height: 36px;
     font-size: 14px;
     color: #fff;
-
 }
 
 .line {
@@ -132,7 +131,7 @@ select {
 table {
     /* Стили для таблицы */
     border-collapse: collapse;
-
+    font-size: 14px;
 }
 
 th, td {
@@ -153,4 +152,5 @@ footer {
     font-weight: 400;
     font-size: 14px;
     color: #2965f1;
+    text-decoration-line: none;
 }
